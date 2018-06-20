@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Loius;
+    text-decoration:none;
+    list-style:none;
+    outline:none;
+    
+ 
+}
+
+#main_wrapper{
+    background-color:#d3d4d4;
+    width:100%;
+    height:100%;
+ 
+}
+
+.btn_wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+    }
+.btn_wrapper button{
+    background-color:none;
+    border:none;
+    width:100%;
+    height:60px; 
+      border:solid 1px #d5d6d9;
+    outline:none;
+    box-sizing:none;
+   
+}
+.button_active{
+    background-color:white;
+    border-bottom:none;
+
+
+}
+#log_in h1{
+    font-size:110%;
+    margin:5px;
+}
+#log_in{
+    width:40%;
+    margin:0 auto;
+    background-color: white;
+    border:solid 1px #d5d6d9; 
+   
+    
+}
+#log_in input[type=text]{
+    font-size:100%;
+    padding:8px;
+    width:80%;
+    margin:8px;
+    border:solid 1px #d5d6d9;
+    box-shadow:0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    
+}
+#log_in input[type=password]{
+    font-size:100%;
+    padding:8px;
+    width:80%;
+    margin:8px;
+    border:solid 1px #d5d6d9;
+    box-shadow:0 2px 2px 0 rgba(46, 60, 73, 0.05);
+}
+#log_in input[type=text]:focus{
+    border:solid 1px #02b3e4;
+}
+#log_in input[type=submit]{
+   
+    padding:10px 58px;
+    background-color:#02b3e4;
+    border:none;
+    color: white;
+    font-family:Loius;
+    box-shadow:12px 15px 20px rgba(0, 0, 0, 0.1);
+    margin-top:10px;
+}
+#log_in input[type=submit]:hover{
+    transition:0.6s;
+    box-shadow:none;
+    background-color: #1E90FF;
+}
+.form_wrapper div{
+margin:20px; 
+    text-align: center;
+}

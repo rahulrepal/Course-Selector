@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Loius;
+    text-decoration:none;
+    list-style:none;
+    outline:none;
+}
+
+section{
+    margin-top: 80px;
+   
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns:20% 60% 20%;
+    margin:20px;
+    width:100%;
+    margin:0 auto;
+    font:sans;
+    border-bottom:solid 1px #d5d6d9;
+    padding:20px;
+}
+.wrapper div,.wrapper img{
+    margin:5px;
+    padding:5px;
+}
+.fa-calendar-o{
+color: #767bb5; 
+}
+.wrapper h2{
+    font-size:110%;
+    font-family:Champ;
+}
+.wrapper h3{
+    font-size:100%;
+   color:#686f7a;
+    margin-top:5px;
+}
+.wrapper img{
+  width:100%;    
+}
+.text_wrapper i{
+  color: #767bb5;   
+}
+.text_wrapper h2,.text_wrapper h3,.text_wrapper i{
+    margin:10px;
+}
+.price_wrapper h2,.price_wrapper button{
+    margin: 10px;
+}
+.text_wrapper button{
+    background-color:white;
+    border:none;
+    font-size: 100%;
+    font-family:Champ;
+    display:block;
+}
+.pcourses{
+    padding:10px;
+    margin:20px;
+    border-bottom:solid 1px #d5d6d9; 
+    font-family:Champ;
+    font-size:150%;
+}

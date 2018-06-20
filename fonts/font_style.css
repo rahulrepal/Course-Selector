@@ -1,0 +1,48 @@
+@font-face{
+    font-family:"Instruction";
+    src: url('Instruction.otf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Whitney";
+    src: url('Whitney-Semibold.otf') format('opentype');
+        
+}
+
+@font-face{
+    font-family:"Alta";
+    src: url('Altavista Personal Use.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Champ";
+    font-weight:bold;
+    src: url('Champagne & Limousines Bold.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Caviar";
+    font-weight:bold;
+    src: url('CaviarDreams.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Loius";
+    src: url('Louis George Cafe.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Night";
+    src: url('NightStillComes_mine_final_sample.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Blacklist";
+    src: url('The Blacklist.ttf') format('opentype');
+        
+}
+@font-face{
+    font-family:"Timeless";
+    src: url('Timeless.ttf') format('opentype');
+        
+}
